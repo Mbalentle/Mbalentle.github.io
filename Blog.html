@@ -1,0 +1,369 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Adulting blog </title>
+	<link rel="stylesheet" href="./Plugins/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Cormorant+Garamond" rel="stylesheet">
+    <link rel="stylesheet" href="./Plugins/style.css">
+    <link href="Boostrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src = "Plugins/jquery-3.2.1.js"></script>
+    <script src="Boostrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="MD light./material.min.css">
+    <script src="MD light./material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link href="css-sprite/sprite-av-black.css" rel="stylesheet">
+    <link href="svg-sprite/svg-sprite-av.css" rel="stylesheet">
+</head>
+<style type="text/css">
+    body
+    {
+    	font-family: sans-serif;
+    	color: black;
+
+    }
+    p
+    {
+    	 font-family: arial;
+    	 color: black;
+    }
+    h1,h2,h3,h4,h5,h6
+    {
+    	 font-family: 'Cormorant Garamond', serif;
+    }
+    #nav
+    {
+    	font-size: 12px;
+    	text-decoration: none;
+    	color: black;
+    	font-weight: bolder;
+    }
+    header 
+    {
+    	background-color: #c2d6d6;
+    }
+    #title2
+    {
+       margin-left: 10%; 
+    }
+    #title3
+    {
+        margin-left: 20%;
+        font-weight: bold;
+    }
+
+    #button1
+    {
+    	background-color: #c2d6d6;
+    	font-weight: bold;
+    	border: 3px solid  #595959;
+    	padding: 10px 0 10px 0;
+    	width:40%;
+    	color:  #595959;
+        margin-left: -4px;
+        border-left: none;
+    }
+    #button2
+    {
+        background-color: #c2d6d6;
+    	font-weight: bold;
+    	border: 3px solid  #595959;
+    	padding: 10px 0 10px 0;
+    	width: 20%;
+    	color:  #595959;
+    }
+    #button2:hover
+    {
+       border: 3px solid gray;
+       color: black;
+       background-color: gray;
+    }
+    #button1:hover
+    {
+       border: 3px solid gray;
+       color: black;
+       background-color: gray;
+    }
+    #btns 
+    {
+        margin-left: 10%;
+    }
+
+    #button3
+    {
+    	color:  #3d5c5c;
+    	font-weight: bold;
+    	text-decoration: none;
+        cursor: hand;
+    }
+    #btn_icorn
+    {
+    	margin-right: 5px 
+    }
+    #button3:hover
+    {
+        color: gray;
+    }
+    #advert
+    {
+    	height: 60%;
+    	margin: 10% 0 0 20%;
+    	padding: 16px 20px 16px 20px;
+    	width: 80%;
+    }
+    #advert h5
+    {
+       margin-bottom: 10%;
+    }
+    #qoute
+    {
+    	width: 50%;
+    	height: 60%;
+    	background-color: #c2d6d6;
+    	padding: 10% 50px 0 50px; 
+        margin-left: 450px;
+    }
+    #qoute p
+    {
+    	font-size: 17px;
+    	font-weight: bold;
+    	text-align: center;
+    }
+    #articles
+    {
+    	color: #3ca1c3;
+    	font-size: 18;
+    	padding: 10px;
+    }
+    #articles:hover
+    {
+    	
+    }
+    #A-box
+    {
+    	padding: 5% 0;
+    }
+    #A-box span
+    {
+        font-size: 30px;
+    }
+    #search
+    {
+    	margin-top: 5%;
+    	padding:5px;
+    	width: 50%;
+        border: 2px solid #5a8c8c;
+    }
+    footer
+    {
+         background-color:#eff5f5; 
+    }
+    #input1
+    {
+    	width: 35%;
+    	padding: 5px;
+    	margin: 5% 0 5% 2%;
+    }
+    #input2
+    {
+        width: 35%;
+    	padding: 5px;
+    	margin: 0 0 5% 8%;
+    }
+    #input-title
+    {
+    	font-family: sans-serif;
+    	font-size: 18px;
+    }
+    #submit1
+    {
+    	background-color: white;
+    	font-weight: bold;
+    	padding:5px;
+    	border: 2px solid #4d4d4d;
+    	margin: 0 1% 0 17%;
+    }
+    #submit2
+    {
+    	background-color: white;
+    	font-weight: bold;
+    	padding:5px;
+    	border: 2px solid  #4d4d4d;
+    }
+
+    #mode-context
+    {
+    	width: 45%;
+    	padding: 16px 0 50px 35px;
+    }
+    #submit1:hover
+    {
+    	background-color: #5a8c8c;
+    	border: 2px solid #5a8c8c;
+    }
+    #submit2:hover
+    {
+    	background-color: #5a8c8c;
+    	border: 2px solid #5a8c8c;
+    }
+    #mode-context h4
+    {
+    	color:#466d6d;
+    }
+    #bold
+    {
+        font-weight: bold;
+    }
+
+</style>
+<body>
+	<header>
+		<div class="w3-container">
+	        <div class="w3-bar w3-large w3-padding-32 navbar-fixed-top" style = "background-color:#c2d6d6" >
+		        <a class = "w3-bar-item" style = "width: 33%; font-size:20px;" id = "nav" href = "#"> #adultingblog</a>
+		        <a href="#" class = "w3-bar-item w3-hover-text-gray" id = "nav">READ ARTICLE</a>
+		        <a href="#" class = "w3-bar-item w3-hover-text-gray" id = "nav">GET MOTIVATED</a>
+		        <a href="#" class = "w3-bar-item w3-hover-text-gray" id = "nav"> STAY UP TO DATE</a>
+		    </div>
+		</div>
+		<div class = "w3-container">
+			<div class = "row" style = "padding: 200px 0 200px 0;">
+				<div class ="w3-center">
+					<div class="col-lg-10">
+                        <h1 style = "font-size:70px;">
+                            <span id = "title1"> #adultingblog </span><br>
+                            <span id = "title2"> Welcomes</span> <br>
+                            <span id = "title3"> You... </span>
+                        </h1>
+                        <div id = "btns">
+                            <button id = "button2" onclick = "popup()" > READ MORE </button>
+                            <div class = "w3-modal" id = "modal2" onclick = "this.style.display = 'none'">
+                                <div class = "w3-modal-content" id = "mode-context">
+                                    <h4> Sign Up and Login to Upload Your Own Artcle</h4>
+                                    <form>
+                                       <span id = "input-title">Password:</span><input type = "password" name = "pass" palceholder = "Password" id = "input1"> <br>
+                                        <span id = "input-title">Email:</span><input type = "email" name = "em" placeholder = "Email" id = "input2"> <br>
+                                        <input type = "submit" name = "sub" value = "LOGIN" id = "submit1"> 
+                                        <input type = "submit" name = "sub" value = "SIGN UP" id = "submit2">
+                                    </form>
+                                </div>
+                            </div>
+                            <button onclick = "modal()" id = "button1" > UPLOAD YOUR OWN ARTICLE </button>
+                            <div class = "w3-modal w3-center" id = "modal101" onclick = "this.style.display = 'none'">
+                                <p class = "w3-modal-content"> theteheeeeeee eeee</p>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div>
+		<div class = "w3-container">
+			<div class = "row" style = "padding: 150px 0 200px 100px;">
+				<div>
+					<div class = "col-lg-7" style = "margin: 0 5% 0 0 ">
+						<h4> Article Tittle</h4>
+						<p class = "w3-opacity"> Date: Month Day Year</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p style = "margin-bottom: 5%;" >
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<div>
+							<a data-toggle = "collapse" data-target = "#comment" id = "button3"> <span class = "	glyphicon glyphicon-comment" id = "btn_icorn"></span> COMMENT </a>
+						    <div class = "collapse" id = "comment" style = "margin-top:5%;">
+							    <form class="form-group">
+                                    <textarea class="form-control" rows="3"></textarea>
+                                </form>
+                                <a id = "button3" href ="#"> POST</a>
+						    </div>
+						</div>
+					</div>
+				</div>
+				<div class = "col-lg-4">
+                    <div id = "social-btn" class = "w3-right">
+                        <a id = "button3" href ="#"> <span class = "glyphicon glyphicon-share" id = "btn_icorn"></span>SHARE </a>
+                        <a id = "button3" style = "margin: 0 20px;" href ="#"> <span class = "glyphicon glyphicon-thumbs-up"  id = "btn_icorn"></span>LIKE</a>
+                    </div>
+					<div class ="w3-card-2" id = "advert"> 
+						<h5> Advertisement</h5>
+						<div class ="well"> </div>
+					 </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style = "background-color:  #83afaf; ">
+		<div class = "w3-container">
+			<div class = "row" style = "padding: 150px 0 150px 0;">
+                <h3 id = "bold" class = "w3-center">QOUTE</h3>
+				<div class = "col-lg-12">
+                    <div id = "qoute">
+                    <p>
+                        <span style = "font-size:60px;">"</span>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                        <span style = "font-size:60px;" class =" w3-right w3-margin">"</span> 
+                    </p>
+                </div>
+                </div>
+			</div>
+		</div>
+	</div>
+	<div>
+		<div class = "w3-container">
+			<div class = "row" style = "padding: 150px 0 150px 0">
+				<div class = "w3-center">
+					<h3> Search Recent <span id = "bold">ARTICLES</span> </h3>
+					<form>
+					    <input type = "search" name = "article" placeholder = "Article name" id = "search"> 
+				    </form>
+                    <div id = "A-box">
+                        <span>></span><a href="#" id = "articles"> Aticle name </a>
+                        <a href="#" id = "articles"> Aticle name </a>
+                        <a href="#" id = "articles"> Aticle name </a> 
+                        <a href="#" id = "articles"> Aticle name </a>
+                        <a href="#" id = "articles"> Aticle name </a>
+                        <a href="#" id = "articles"> Aticle name </a>
+                   </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+        var child = document.getElementById('nav');
+        var parent = child.parentNode;
+        parent.style.color = "red";
+	    function popup () {
+	    	document.getElementById("modal2").style.display = "block";
+	    }
+	    function modal() {
+	    	document.getElementById('modal101').style.display = "block";
+	    }
+	</script>
+	<footer class= " w3-margin-top">
+        <div class="container">
+            <div class="w3-center w3-padding">
+                <h4> Share the Page! </h4>
+            </div>
+        </div>     
+    </footer>  
+</body>
+</html>
